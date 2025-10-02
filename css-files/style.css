@@ -199,9 +199,10 @@ font-weight: bold;
 .learn-grow{
     background-color: #FBCFE8;
     height: auto;
-    width: 150px;
+    width: 300px !important;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 20px !important;
     
 }
 .lrn-h1{
@@ -216,7 +217,7 @@ font-weight: bold;
 .ai-resume-chck{
     background-color: #BFDBFE;
     height: auto;
-    width: 150px;
+    width: 300px !important;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -224,15 +225,16 @@ font-weight: bold;
 .showcase-Compete{
     background-color: #FED7AA;
         height: auto;
-    width: 150px;
+    width: 300px !important;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer ;
+    margin-right: 20px !important;
 }
 
 .Jobs-from-the-Mine{
      background-color: #E9D5FF;
         height: auto;
-    width: 150px;
+    width: 300px !important;
     border-radius: 10px;
     cursor: pointer;   
 }
@@ -242,4 +244,184 @@ font-weight: bold;
  height: auto;
  width: auto;
  border-radius: 10px;   
+}
+
+.container-1{
+    gap: 10 !important;
+}
+.journey-p1{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mission-1{
+    background-color: #292930;
+    height: auto;
+    width: 600px !important;
+    border-radius: 10px;
+    margin-right:10px ;
+}
+
+.h1-mission{
+    color: #6851FF;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* news */
+
+.news-cards{
+    gap: 10px;
+    justify-content: center;
+}
+.card-1{
+    height: auto;
+    width:280px !important;
+   background-color: #292930;
+    /* border: 1px solid red; */
+}
+
+.card-1 img{
+    margin-left: -10px;
+    margin-right: -20px;
+    width: 280px;
+}
+
+.heading-news{
+    color:#6851FF;
+    margin-top: 5px ;
+    font-weight: bold;
+}
+.form{
+    background-color: #292930;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    max-width: 700px ;
+}
+
+.name-feild .f-name{
+    height: 50px !important;
+    width: 300px !important;
+    border: 1px solid #212126;
+    border-radius: 5px;
+    background-color: #292930;
+    gap: 10px;
+    margin-right: 20px;
+
+}
+
+.f-name:focus{
+    border: 1px solid #800080;
+}
+
+.email{
+        height: 50px !important;
+    width: 300px !important;
+    border: 1px solid #212126;
+    border-radius: 5px;
+    background-color: #292930;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+textarea{
+            height: 50px !important;
+    width: 300px !important;
+    border: 1px solid #212126;
+    border-radius: 5px;
+    background-color: #292930;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 20px !important;
+}
+
+.submit-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #6851FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* footers */
+.footer-gradient-bg{
+        background: linear-gradient(to bottom, #523CDE, #9346FD);
+    height: auto;
+    width: 100%;
+    padding: 50px 200px 50px 200px;
+
+}
+
+@media (max-width:768px) {
+    .footer-gradient-bg{
+    padding: 50px 150px 50px 150px;
+
+    }
+    
+}
+
+@media (max-width:425px) {
+    .footer-gradient-bg{
+    padding: 50px 100px 50px 100px;
+
+    }
+    
+}
+@media (max-width:375px) {
+    .footer-gradient-bg{
+    padding: 50px 70px 50px 70px;
+
+    }
+    
+}
+
+@media (max-width:320px) {
+    .footer-gradient-bg{
+    padding: 50px 40px 50px 40px;
+
+    }
+    
+}
+
+
+.footer-txt{
+    color: white;
+    font-weight: 600;
+}
+
+.footer-txt-1{
+    color: white;
+    margin-top: 50px;
+}
+
+.social-icons{
+    gap: 20px;
+     cursor: pointer;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    background-color: none;
+    cursor: pointer;
+}
+
+footer hr{
+    color: white;
+height: 20px;
+width: 100%;
+}
+
+.footer-2{
+    justify-content: center;
+}
+input, textarea{
+    color: white;
 }

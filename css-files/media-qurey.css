@@ -4,3 +4,13 @@
         font-size: 35px;
     }
 }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+      .guidance {
+        grid-row: auto;
+      }
+    }

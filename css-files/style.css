@@ -453,7 +453,7 @@ font-weight: bold;
 
 @media (max-width:768px) {
     .footer-gradient-bg{
-    padding: 50px 150px 50px 150px;
+    padding: 50px 80px 50px 80px;
 
     }
     
@@ -461,14 +461,14 @@ font-weight: bold;
 
 @media (max-width:425px) {
     .footer-gradient-bg{
-    padding: 50px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
 
     }
     
 }
 @media (max-width:375px) {
     .footer-gradient-bg{
-    padding: 50px 70px 50px 70px;
+    padding: 50px 40px 50px 40px;
 
     }
     
@@ -476,7 +476,7 @@ font-weight: bold;
 
 @media (max-width:320px) {
     .footer-gradient-bg{
-    padding: 50px 40px 50px 40px;
+    padding: 50px 20px 50px 20px;
 
     }
     
